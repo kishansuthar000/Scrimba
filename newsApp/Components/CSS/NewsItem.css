@@ -1,0 +1,26 @@
+.news-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin: 20px 25% 0 23%;
+    
+}
+.card{
+    width: 250px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.card img{
+    width: 250px;
+    height:150px;
+}
+.description a{
+   
+    text-decoration: none;
+    background-color: rgb(90, 120, 252);
+    border-radius: 5px;
+    padding: 5px;
+}
+.description{
+    margin: 0 20px;
+    line-height: 20px;
+}
